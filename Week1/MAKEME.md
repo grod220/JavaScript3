@@ -32,7 +32,7 @@ Figure 1 below shows an example of what your application could look like. Note t
 
 <small>Figure 1. Example User Interface using [Material Design](https://material.io/guidelines/) principles.</small>
 
-A live version of this application can be found here: http://hyf-github.netlify.com/
+A live version of this application can be found here: [http://hyf-github.netlify.com/](http://hyf-github.netlify.com/)
 
 ### 1.2 The GitHub API
 
