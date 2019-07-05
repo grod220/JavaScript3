@@ -19,7 +19,7 @@ _This homework is more extensive and challenging than previous homework! Please 
 
 You are going to write a _Single Page Application_ (SPA) that uses the [GitHub API](https://developer.github.com/guides/getting-started/).
 
-This application should display information about the available [HYF GitHub repositories](https://github.com/hackyourfuture). The functionalities we would like to see in your application are as follows:
+This application should display information about the available [FooCoding GitHub repositories](https://github.com/foocoding). The functionalities we would like to see in your application are as follows:
 
 - The user should be able to select a repository from a list of available repositories.
 - The application should display high-level information about the selected repository and show a list of its contributors.
@@ -36,15 +36,15 @@ A live version of this application can be found here: [http://hyf-github.netlify
 
 ### 1.2 The GitHub API
 
-#### 1.2.1 Get a list of HYF repositories
+#### 1.2.1 Get a list of FooCoding repositories
 
-You can fetch a list of HYF repositories through this API endpoint ([What is an API Endpoint?](https://teamtreehouse.com/community/what-is-an-api-endpoint)):
+You can fetch a list of FooCoding repositories through this API endpoint ([What is an API Endpoint?](https://teamtreehouse.com/community/what-is-an-api-endpoint)):
 
 ```
-https://api.github.com/orgs/HackYourFuture/repos?per_page=100
+https://api.github.com/orgs/foocoding/repos?per_page=100
 ```
 
-If you open this URL in the browser (_try it!_) you will receive JSON data about the available HYF repositories. This is the data that you will need to work with in this assignment.
+If you open this URL in the browser (_try it!_) you will receive JSON data about the available FooCoding repositories. This is the data that you will need to work with in this assignment.
 
 <small>Note the query string `?per_page=100` in the above URL. If you don't specify this query string you will only get the first 30 repositories (the default `per_page` is 30). HackYourFuture has more than 30 repositories but less than 100.</small>
 
@@ -62,7 +62,7 @@ You can find detailed information about the GitHub API by means of the link list
 
 ### 1.3 Coding Style
 
-In this homework we will be introducing a preferred coding style and supporting tools to help you write _"clean code"_. A number of popular [_JavaScript Style Guides_](https://codeburst.io/5-javascript-style-guides-including-airbnb-github-google-88cbc6b2b7aa) have recently emerged of which the one developed by [Airbnb](https://github.com/airbnb/javascript) has been chosen for this homework and is recommended for subsequent use during the HYF curriculum. It is documented here:
+In this homework we will be introducing a preferred coding style and supporting tools to help you write _"clean code"_. A number of popular [_JavaScript Style Guides_](https://codeburst.io/5-javascript-style-guides-including-airbnb-github-google-88cbc6b2b7aa) have recently emerged of which the one developed by [Airbnb](https://github.com/airbnb/javascript) has been chosen for this homework and is recommended for subsequent use during the FooCoding curriculum. It is documented here:
 
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
@@ -146,10 +146,10 @@ _**Do not change or delete any files outside of the `homework` folder!**_
    | `createAndAppend` | A utility function for easily creating and appending HTML elements.                                          |
    | `main`            | Contains the start-up code for the application.                                                              |
 
-   `index.js` also contains a constant with the URL for the HYF repositories as listed in section 2.2.1:
+   `index.js` also contains a constant with the URL for the FooCoding repositories as listed in section 2.2.1:
 
    ```js
-   const HYF_REPOS_URL = 'https://api.github.com/orgs/HackYourFuture/repos?per_page=100';
+   const REPOS_URL = 'https://api.github.com/orgs/foocoding/repos?per_page=100';
    ```
 
 3. Open the `index.html` file in your browser. Notice that it produces the same JSON output that you saw previously when you opened the URL directly in the browser.
@@ -162,7 +162,7 @@ The assignment is to produce an application similar to the one illustrated in Fi
 
 It should include the following components:
 
-1. An HTML `select` element from which the user can select a HYF repository. This `select` element must be populated with `option` elements, one for each HYF repository.
+1. An HTML `select` element from which the user can select a FooCoding repository. This `select` element must be populated with `option` elements, one for each FooCoding repository.
 2. A left-hand column that displays basic information about the selected repository.
 3. A right-hand column that displays a list of contributors to the repository.
 

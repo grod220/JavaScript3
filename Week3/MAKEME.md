@@ -69,7 +69,7 @@ The `App.js`, `Repository.js` and `Contributor.js` files each contain skeleton c
 
 _Read:_
 
-- HYF fundamental: [ES6 Classes](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/oop_classes.md#es6-classes)
+- FooCoding fundamental: [ES6 Classes](https://github.com/foocoding/fundamentals/blob/master/fundamentals/oop_classes.md#es6-classes)
 - More on ES6 classes: [ES6 Classes in Depth](https://ponyfoo.com/articles/es6-classes-in-depth)
 
 #### 2.2.3 ARIA-compliance (BONUS)

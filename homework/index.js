@@ -41,7 +41,7 @@
     });
   }
 
-  const HYF_REPOS_URL = 'https://api.github.com/orgs/HackYourFuture/repos?per_page=100';
+  const REPOS_URL = 'https://api.github.com/orgs/foocoding/repos?per_page=100';
 
-  window.onload = () => main(HYF_REPOS_URL);
+  window.onload = () => main(REPOS_URL);
 }
