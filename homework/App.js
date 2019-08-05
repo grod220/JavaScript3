@@ -76,6 +76,6 @@ class App {
   }
 }
 
-const HYF_REPOS_URL = 'https://api.github.com/orgs/HackYourFuture/repos?per_page=100';
+const REPOS_URL = 'https://api.github.com/orgs/foocoding/repos?per_page=100';
 
-window.onload = () => new App(HYF_REPOS_URL);
+window.onload = () => new App(REPOS_URL);
